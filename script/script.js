@@ -1,8 +1,27 @@
+// ---
+// Section: Global Variables
+// ---
+const utteranceList = [];
+let automaticSpeechToggle = true;
+
+// ---
+// Section: Functions
+// ---
+
 const getJSONData = () => {
   return new Promise(async (resolve) => {
     const file = await fetch("/script/data/buttons.json");
     const data = await file.json();
     resolve(data);
+  });
+};
+
+const setupGridButtons = () => {
+  const gridButtons = document.querySelectorAll(".button-grid button");
+  gridButtons.forEach((currentButton) => {
+    currentButton.addEventListener("click", () => {
+      pressButton(currentButton);
+    });
   });
 };
 
@@ -21,11 +40,11 @@ const createButtons = async () => {
       let currentDiv = document.createElement("div");
       currentDiv.className = "button-div";
       let currentImg = document.createElement("img");
-      currentDiv.className = "button-img";
+      currentImg.className = "button-img";
       currentImg.src = currentButtonData.src;
       currentImg.alt = currentButtonData.alt;
       let currentText = document.createElement("p");
-      currentDiv.className = "button-text";
+      currentText.className = "button-text";
       currentText.innerHTML = currentButtonData.text;
       currentDiv.appendChild(currentImg);
       currentDiv.appendChild(currentText);
@@ -33,6 +52,7 @@ const createButtons = async () => {
       buttonGrid.appendChild(currentButton);
     }
   }
+  setupGridButtons();
 };
 
 const replaceButtons = async (keyName) => {
@@ -53,11 +73,11 @@ const replaceButtons = async (keyName) => {
         let currentDiv = document.createElement("div");
         currentDiv.className = "button-div";
         let currentImg = document.createElement("img");
-        currentDiv.className = "button-img";
+        currentImg.className = "button-img";
         currentImg.src = currentButtonData.src;
         currentImg.alt = currentButtonData.alt;
         let currentText = document.createElement("p");
-        currentDiv.className = "button-text";
+        currentText.className = "button-text";
         currentText.innerHTML = currentButtonData.text;
         currentDiv.appendChild(currentImg);
         currentDiv.appendChild(currentText);
@@ -67,19 +87,19 @@ const replaceButtons = async (keyName) => {
     }
   } else {
     let currentButtons = buttonData[keyName];
-    for (var j = 0; j < currentButtons.length; j++) {
+    for (var k = 0; k < currentButtons.length; k++) {
       let currentButtonData = currentButtons[j];
       let currentButton = document.createElement("button");
-      currentButton.className = "button-" + currentKey;
+      currentButton.className = "button-" + keyName;
       currentButton.type = "button";
       let currentDiv = document.createElement("div");
       currentDiv.className = "button-div";
       let currentImg = document.createElement("img");
-      currentDiv.className = "button-img";
+      currentImg.className = "button-img";
       currentImg.src = currentButtonData.src;
       currentImg.alt = currentButtonData.alt;
       let currentText = document.createElement("p");
-      currentDiv.className = "button-text";
+      currentText.className = "button-text";
       currentText.innerHTML = currentButtonData.text;
       currentDiv.appendChild(currentImg);
       currentDiv.appendChild(currentText);
@@ -87,17 +107,47 @@ const replaceButtons = async (keyName) => {
       buttonGrid.appendChild(currentButton);
     }
   }
+  setupGridButtons();
 };
 
-const setupButtons = () => {
-  const topicButtons = document.querySelectorAll("topic-grid button");
+const appendTextButton = (button) => {
+  const textboxDiv = document.getElementById("text-box");
+  const currentCopy = document.createElement("div");
+  currentCopy.className = "div-" + button.className.split("button-")[1];
+  const currentCopyDiv = document.createElement("div");
+  currentCopyDiv.className = "text-div";
+  const currentCopyImg = document.createElement("img");
+  currentCopyImg.className = "text-img";
+  currentCopyImg.src = button.querySelector(".button-img").src;
+  currentCopyImg.alt = button.querySelector(".button-img").alt;
+  const currentCopyText = document.createElement("p");
+  currentCopyText.className = "text-text";
+  currentCopyText.innerHTML = button.querySelector(".button-text").innerHTML;
+  currentCopyDiv.appendChild(currentCopyImg);
+  currentCopyDiv.appendChild(currentCopyText);
+  currentCopy.appendChild(currentCopyDiv);
+  textboxDiv.appendChild(currentCopy);
+};
+
+const setupTopicButtons = () => {
+  const topicButtons = document.querySelectorAll(".topic-grid button");
   topicButtons.forEach((currentButton) => {
     currentButton.addEventListener("click", () => {
-      let keyName = currentButton.className.split("-")[1];
+      let keyName = currentButton.className.split("button-")[1];
       replaceButtons(keyName);
     });
   });
 };
 
+const pressButton = (button) => {
+  const currentText = button.querySelector(".button-text").innerHTML;
+  const currentUtterance = new SpeechSynthesisUtterance(currentText);
+  utteranceList.push(currentUtterance);
+  appendTextButton(button);
+  if (automaticSpeechToggle) {
+    currentUtterance.speak();
+  }
+};
+
 createButtons();
-setupButtons();
+setupTopicButtons();
