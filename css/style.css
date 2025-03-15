@@ -27,14 +27,14 @@ h1 {
   height: auto;
   margin-left: 10px;
 }
+
 .button-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 10px;
   margin: 60px 400px;
 }
-.button-grid button,
-.button-grid input {
+.button-grid button {
   width: 60%;
   height: 80px;
   border-radius: 10px;
@@ -42,9 +42,9 @@ h1 {
   text-align: text-top;
   margin-right: 30%;
   font-weight: 600;
-  background-color: rgb(230, 230, 104);
   border: none;
 }
+
 .topic-grid {
   margin-top: 45px;
   display: flex;
@@ -58,6 +58,10 @@ h1 {
   color: black;
   border-radius: 40px;
   font-weight: 600;
+}
+
+.button-all {
+  background-color: purple;
 }
 .button-core {
   background-color: rgb(230, 230, 104);
