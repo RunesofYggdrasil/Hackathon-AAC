@@ -566,74 +566,74 @@
     },
     {
       "text": "Hard",
-      "src": "img/smth",
+      "src": "img/hard.png",
       "alt": "A button representing the word 'Hard'"
     },
     {
       "text": "Slow",
-      "src": "img/smth",
+      "src": "img/slow.png",
       "alt": "A button representing the word 'Slow'"
     },
     {
       "text": "Fast",
-      "src": "img/smth",
+      "src": "img/fast.png",
       "alt": "A button representing the word 'Fast'"
     },
     {
       "text": "Tasty",
-      "src": "img/smth",
+      "src": "img/tasty.png",
       "alt": "A button representing the word 'Tasty'"
     },
     {
       "text": "Hot",
-      "src": "img/smth",
+      "src": "img/hot.png",
       "alt": "A button representing the word 'Hot'"
     },
     {
       "text": "Cold",
-      "src": "img/smth",
+      "src": "img/cold.png",
       "alt": "A button representing the word 'Cold'"
     },
     {
       "text": "Loud",
-      "src": "img/smth",
+      "src": "img/loud.png",
       "alt": "A button representing the word 'Loud'"
     },
     {
       "text": "Quiet",
-      "src": "img/smth",
+      "src": "img/quiet.png",
       "alt": "A button representing the word 'Quiet'"
     }
   ],
   "emergency": [
     {
       "text": "Help",
-      "src": "img/smth",
+      "src": "img/help.png",
       "alt": "A button representing the word 'Help'"
     },
     {
       "text": "I need a doctor",
-      "src": "img/smth",
+      "src": "img/doctor.png",
       "alt": "A button representing the word 'I need a doctor'"
     },
     {
       "text": "I feel sick",
-      "src": "img/smth",
+      "src": "img/sick.png",
       "alt": "A button representing the word 'I feel sick'"
     },
     {
       "text": "I am hurt",
-      "src": "img/smth",
+      "src": "img/hurt.png",
       "alt": "A button representing the word 'I am hurt'"
     },
     {
       "text": "Go away",
-      "src": "img/smth",
+      "src": "img/go_away.png.png",
       "alt": "A button representing the word 'Go away'"
     },
     {
       "text": "Danger",
-      "src": "img/smth",
+      "src": "img/danger.png",
       "alt": "A button representing the word 'Danger'"
     }
   ],
