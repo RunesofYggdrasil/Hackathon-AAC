@@ -16,6 +16,7 @@ const createButtons = async () => {
     for (var j = 0; j < currentButtons.length; j++) {
       let currentButtonData = currentButtons[j];
       let currentButton = document.createElement("button");
+      currentButton.className = currentKey;
       currentButton.type = "button";
       let currentDiv = document.createElement("div");
       currentDiv.className = "button-div";
