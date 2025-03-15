@@ -19,210 +19,177 @@
       "text": "She",
       "src": "img/smth",
       "alt": "A button representing the word 'She'"
-    }, 
+    },
     {
       "text": "They",
       "src": "img/smth",
       "alt": "A button representing the word 'They'"
-    }, 
+    },
     {
       "text": "It",
       "src": "img/smth",
       "alt": "A button representing the word 'It'"
-    }, 
+    },
     {
       "text": "This",
       "src": "img/smth",
       "alt": "A button representing the word 'This'"
-    }, 
-
+    },
     {
       "text": "That",
       "src": "img/smth",
       "alt": "A button representing the word 'That'"
-    }, 
-
+    },
     {
       "text": "The",
       "src": "img/smth",
       "alt": "A button representing the word 'The'"
-    }, 
-
+    },
     {
       "text": "A",
       "src": "img/smth",
       "alt": "A button representing the word 'A'"
-    }, 
-
+    },
     {
       "text": "Is",
       "src": "img/smth",
       "alt": "A button representing the word 'Is'"
-    }, 
+    },
     {
       "text": "Are",
       "src": "img/smth",
       "alt": "A button representing the word 'Are'"
-    }, 
-
+    },
     {
       "text": "Can",
       "src": "img/smth",
       "alt": "A button representing the word 'Can'"
-    }, 
-
+    },
     {
       "text": "Will",
       "src": "img/smth",
       "alt": "A button representing the word 'Will'"
-    }, 
-
+    },
     {
       "text": "Do",
       "src": "img/smth",
       "alt": "A button representing the word 'Do'"
-    }, 
-
+    },
     {
       "text": "Like",
       "src": "img/smth",
       "alt": "A button representing the word 'Like'"
-    }, 
-
+    },
     {
       "text": "Don't like",
       "src": "img/smth",
       "alt": "A button representing the word 'Don't like'"
-    }, 
-
+    },
     {
       "text": "Want",
       "src": "img/smth",
       "alt": "A button representing the word 'Want'"
-    }, 
-
+    },
     {
       "text": "Don't want",
       "src": "img/smth",
       "alt": "A button representing the word 'Don't want'"
-    }, 
-
+    },
     {
       "text": "Stop",
       "src": "img/smth",
       "alt": "A button representing the word 'Stop'"
-    }, 
-
+    },
     {
       "text": "Look",
       "src": "img/smth",
       "alt": "A button representing the word 'Look'"
-    }, 
-
+    },
     {
       "text": "See",
       "src": "img/smth",
       "alt": "A button representing the word 'See'"
-    }, 
-
+    },
     {
       "text": "Eat",
       "src": "img/smth",
       "alt": "A button representing the word 'Eat'"
-    }, 
-
+    },
     {
       "text": "Help",
       "src": "img/smth",
       "alt": "A button representing the word 'Help'"
-    }, 
-
+    },
     {
       "text": "Go",
       "src": "img/smth",
       "alt": "A button representing the word 'Go'"
-    }, 
-
+    },
     {
       "text": "Need",
       "src": "img/smth",
       "alt": "A button representing the word 'Need'"
-    }, 
-    
+    },
     {
       "text": "Come",
       "src": "img/smth",
       "alt": "A button representing the word 'Come'"
-    }, 
-
+    },
     {
       "text": "Take",
       "src": "img/smth",
       "alt": "A button representing the word 'Take'"
-    }, 
-
-
+    },
     {
       "text": "Get",
       "src": "img/smth",
       "alt": "A button representing the word 'Get'"
-    }, 
-
+    },
     {
       "text": "Make",
       "src": "img/smth",
       "alt": "A button representing the word 'Make'"
-    }, 
-
+    },
     {
       "text": "Think",
       "src": "img/smth",
       "alt": "A button representing the word 'Think'"
-    }, 
-
+    },
     {
       "text": "Know",
       "src": "img/smth",
       "alt": "A button representing the word 'Know'"
-    }, 
-
+    },
     {
       "text": "Give",
       "src": "img/smth",
       "alt": "A button representing the word 'Give'"
-    }, 
-
+    },
     {
       "text": "At",
       "src": "img/smth",
       "alt": "A button representing the word 'At'"
-    }, 
-
+    },
     {
       "text": "In",
       "src": "img/smth",
       "alt": "A button representing the word 'In'"
-    }, 
-
-
+    },
     {
       "text": "To",
       "src": "img/smth",
       "alt": "A button representing the word 'To'"
     },
-
     {
       "text": "On",
       "src": "img/smth",
       "alt": "A button representing the word 'On'"
-    }, 
-
+    },
     {
       "text": "Have",
       "src": "img/smth",
       "alt": "A button representing the word 'Have'"
-    }, 
-
+    },
     {
       "text": "Put",
       "src": "img/smth",
@@ -234,38 +201,32 @@
       "text": "Hello",
       "src": "img/smth",
       "alt": "A button representing the word 'Hello'"
-    }, 
-
+    },
     {
       "text": "Bye",
       "src": "img/smth",
       "alt": "A button representing the word 'Bye'"
-    }, 
-
+    },
     {
       "text": "Thank you",
       "src": "img/smth",
       "alt": "A button representing the word 'Thank you'"
-    }, 
-
+    },
     {
       "text": "Please",
       "src": "img/smth",
       "alt": "A button representing the word 'Please'"
-    }, 
-
+    },
     {
       "text": "My name is",
       "src": "img/smth",
       "alt": "A button representing the word 'My name is'"
-    }, 
-
+    },
     {
       "text": "My birthday is",
       "src": "img/smth",
       "alt": "A button representing the word 'My birthday is'"
-    }, 
-
+    },
     {
       "text": "I live in",
       "src": "img/smth",
@@ -277,74 +238,62 @@
       "text": "Mom",
       "src": "img/smth",
       "alt": "A button representing the word 'Mom'"
-    }, 
-
+    },
     {
       "text": "Dad",
       "src": "img/smth",
       "alt": "A button representing the word 'Dad'"
-    }, 
-
+    },
     {
       "text": "Sister",
       "src": "img/smth",
       "alt": "A button representing the word 'Sister'"
-    }, 
-
+    },
     {
       "text": "Brother",
       "src": "img/smth",
       "alt": "A button representing the word 'Brother'"
-    }, 
-
+    },
     {
       "text": "Grandpa",
       "src": "img/smth",
       "alt": "A button representing the word 'Grandpa'"
-    }, 
-
+    },
     {
       "text": "Grandma",
       "src": "img/smth",
       "alt": "A button representing the word 'Grandma'"
-    }, 
-
+    },
     {
       "text": "Sister",
       "src": "img/smth",
       "alt": "A button representing the word 'Sister'"
-    }, 
-
+    },
     {
       "text": "Brother",
       "src": "img/smth",
       "alt": "A button representing the word 'Brother'"
-    }, 
-
+    },
     {
       "text": "Friend",
       "src": "img/smth",
       "alt": "A button representing the word 'Friend'"
-    }, 
-
+    },
     {
       "text": "Doctor",
       "src": "img/smth",
       "alt": "A button representing the word 'Doctor'"
-    }, 
-
+    },
     {
       "text": "Teacher",
       "src": "img/smth",
       "alt": "A button representing the word 'Teacher'"
-    }, 
-    
+    },
     {
       "text": "Nurse",
       "src": "img/smth",
       "alt": "A button representing the word 'Nurse'"
-    }, 
-
+    },
     {
       "text": "Classmate",
       "src": "img/smth",
@@ -356,61 +305,52 @@
       "text": "Home",
       "src": "img/smth",
       "alt": "A button representing the word 'Home'"
-    }, 
-
+    },
     {
       "text": "Bedroom",
       "src": "img/smth",
       "alt": "A button representing the word 'Bedroom'"
-    }, 
-
+    },
     {
       "text": "Restroom",
       "src": "img/smth",
       "alt": "A button representing the word 'Restroom'"
-    }, 
-
+    },
     {
       "text": "Kitchen",
       "src": "img/smth",
       "alt": "A button representing the word 'Kitchen'"
-    }, 
-
+    },
     {
       "text": "Park",
       "src": "img/smth",
       "alt": "A button representing the word 'Park'"
-    }, 
-
+    },
     {
       "text": "Store",
       "src": "img/smth",
       "alt": "A button representing the word 'Store'"
-    }, 
-
+    },
     {
       "text": "Restaurant",
       "src": "img/smth",
       "alt": "A button representing the word 'Restaurant'"
-    }, 
-
+    },
     {
       "text": "Hospital",
       "src": "img/smth",
       "alt": "A button representing the word 'Hospital'"
-    }, 
-
+    },
     {
       "text": "School",
       "src": "img/smth",
       "alt": "A button representing the word 'School'"
-    }, 
-
+    },
     {
       "text": "Library",
       "src": "img/smth",
       "alt": "A button representing the word 'Library'"
-    } 
+    }
   ],
   "food": [
     {
@@ -418,199 +358,170 @@
       "src": "img/smth",
       "alt": "A button representing the word 'Water'"
     },
-
     {
       "text": "Juice",
       "src": "img/smth",
       "alt": "A button representing the word 'Juice'"
-    }, 
-
+    },
     {
       "text": "Milk",
       "src": "img/smth",
       "alt": "A button representing the word 'Milk'"
-    }, 
+    },
     {
       "text": "Apple",
       "src": "img/smth",
       "alt": "A button representing the word 'Apple'"
     },
-
     {
       "text": "Banana",
       "src": "img/smth",
       "alt": "A button representing the word 'Banana'"
     },
-
     {
       "text": "Pizza",
       "src": "img/smth",
       "alt": "A button representing the word 'Pizza'"
     },
-
     {
       "text": "Chicken",
       "src": "img/smth",
       "alt": "A button representing the word 'Chicken'"
     },
-
     {
       "text": "Sandwich",
       "src": "img/smth",
       "alt": "A button representing the word 'Sandwich'"
     },
-
     {
       "text": "Cookie",
       "src": "img/smth",
       "alt": "A button representing the word 'Cookie'"
     },
-
     {
       "text": "Ice cream",
       "src": "img/smth",
       "alt": "A button representing the word 'Ice cream'"
     },
-
     {
       "text": "Snack",
       "src": "img/smth",
       "alt": "A button representing the word 'Snack'"
     },
-
     {
       "text": "Breakfast",
       "src": "img/smth",
       "alt": "A button representing the word 'Breakfast'"
     },
-
     {
       "text": "Lunch",
       "src": "img/smth",
       "alt": "A button representing the word 'Lunch'"
     },
-
     {
       "text": "Dinner",
       "src": "img/smth",
       "alt": "A button representing the word 'Dinner'"
     }
-    
   ],
   "activities": [
     {
       "text": "Read",
-      "src": "img/smth",
+      "src": "img/reading.png",
       "alt": "A button representing the word 'Read'"
-    }, 
+    },
     {
       "text": "Watch",
-      "src": "img/smth",
+      "src": "img/monitor.png",
       "alt": "A button representing the word 'Watch'"
     },
-
     {
       "text": "Play",
-      "src": "img/smth",
+      "src": "img/play.png",
       "alt": "A button representing the word 'Play'"
     },
-
     {
       "text": "Dance",
-      "src": "img/smth",
+      "src": "img/dance.png",
       "alt": "A button representing the word 'Dance'"
     },
-
     {
       "text": "Sing",
-      "src": "img/smth",
+      "src": "img/sing.png",
       "alt": "A button representing the word 'Sing'"
     },
-
     {
       "text": "Draw",
-      "src": "img/smth",
+      "src": "img/drawing.png",
       "alt": "A button representing the word 'Draw'"
     },
-
     {
       "text": "Color",
-      "src": "img/smth",
+      "src": "img/coloring.png",
       "alt": "A button representing the word 'Color'"
     },
-
     {
       "text": "Drive a bike",
-      "src": "img/smth",
+      "src": "img/bike.png",
       "alt": "A button representing the word 'Drive a bike'"
     },
-
     {
       "text": "Swim",
-      "src": "img/smth",
+      "src": "img/swim.png",
       "alt": "A button representing the word 'Swim'"
     },
-
     {
       "text": "Listen to music",
-      "src": "img/smth",
+      "src": "img/music.png",
       "alt": "A button representing the word 'Listen to music"
     }
   ],
   "feelings": [
     {
       "text": "Happy",
-      "src": "img/smth",
+      "src": "img/happy.png",
       "alt": "A button representing the word 'Happy'"
-    }, 
+    },
     {
       "text": "Sad",
       "src": "img/smth",
       "alt": "A button representing the word 'Sad'"
     },
-
     {
       "text": "Tired",
       "src": "img/smth",
       "alt": "A button representing the word 'Tired'"
     },
-
     {
       "text": "Excited",
       "src": "img/smth",
       "alt": "A button representing the word 'Excited'"
     },
-
     {
       "text": "Nervous",
       "src": "img/smth",
       "alt": "A button representing the word 'Nervous'"
     },
-
     {
       "text": "Angry",
       "src": "img/smth",
       "alt": "A button representing the word 'Angry'"
     },
-
     {
       "text": "Scared",
       "src": "img/smth",
       "alt": "A button representing the word 'Scared'"
     },
-
     {
       "text": "Calm",
       "src": "img/smth",
       "alt": "A button representing the word 'Calm'"
     },
-
     {
       "text": "Frustrated",
       "src": "img/smth",
       "alt": "A button representing the word 'Frustrated'"
     },
-
     {
       "text": "Bored",
       "src": "img/smth",
@@ -622,89 +533,72 @@
       "text": "Big",
       "src": "img/smth",
       "alt": "A button representing the word 'Big'"
-    }, 
-
+    },
     {
       "text": "Small",
       "src": "img/smth",
       "alt": "A button representing the word 'Small'"
     },
-
     {
       "text": "Dark",
       "src": "img/smth",
       "alt": "A button representing the word 'Dark'"
     },
-
     {
       "text": "Light",
       "src": "img/smth",
       "alt": "A button representing the word 'Light'"
     },
-
     {
       "text": "Short",
       "src": "img/smth",
       "alt": "A button representing the word 'Short'"
     },
-
     {
       "text": "Tall",
       "src": "img/smth",
       "alt": "A button representing the word 'Tall'"
     },
-
     {
       "text": "Soft",
       "src": "img/smth",
       "alt": "A button representing the word 'Soft'"
     },
-
     {
       "text": "Hard",
       "src": "img/smth",
       "alt": "A button representing the word 'Hard'"
     },
-
     {
       "text": "Slow",
       "src": "img/smth",
       "alt": "A button representing the word 'Slow'"
     },
-
     {
       "text": "Fast",
       "src": "img/smth",
       "alt": "A button representing the word 'Fast'"
     },
-
     {
       "text": "Tasty",
       "src": "img/smth",
       "alt": "A button representing the word 'Tasty'"
     },
-
     {
       "text": "Hot",
       "src": "img/smth",
       "alt": "A button representing the word 'Hot'"
     },
-
-
     {
       "text": "Cold",
       "src": "img/smth",
       "alt": "A button representing the word 'Cold'"
     },
-
-
     {
       "text": "Loud",
       "src": "img/smth",
       "alt": "A button representing the word 'Loud'"
     },
-
-
     {
       "text": "Quiet",
       "src": "img/smth",
@@ -716,26 +610,22 @@
       "text": "Help",
       "src": "img/smth",
       "alt": "A button representing the word 'Help'"
-    }, 
-
+    },
     {
       "text": "I need a doctor",
       "src": "img/smth",
       "alt": "A button representing the word 'I need a doctor'"
     },
-
     {
       "text": "I feel sick",
       "src": "img/smth",
       "alt": "A button representing the word 'I feel sick'"
     },
-
     {
       "text": "I am hurt",
       "src": "img/smth",
       "alt": "A button representing the word 'I am hurt'"
     },
-
     {
       "text": "Go away",
       "src": "img/smth",
@@ -746,44 +636,32 @@
       "src": "img/smth",
       "alt": "A button representing the word 'Danger'"
     }
-
-  
   ],
   "questions": [
     {
-      "text": "What?",
+      "text": "What",
       "src": "img/smth",
-      "alt": "A button representing the word 'What?'"
-    }, 
-
-    {
-      "text": "What that?",
-      "src": "img/smth",
-      "alt": "A button representing the word 'What that?'"
-    }, 
-
-    {
-      "text": "Where?",
-      "src": "img/smth",
-      "alt": "A button representing the word 'Where?'"
-    }, 
-
-    {
-      "text": "Where go?",
-      "src": "img/smth",
-      "alt": "A button representing the word 'Where go?'"
+      "alt": "A button representing the word 'What'"
     },
-
     {
-      "text": "Who? ",
+      "text": "When",
       "src": "img/smth",
-      "alt": "A button representing the word 'Who?'"
-    }, 
+      "alt": "A button representing the word 'When'"
+    },
     {
-      "text": "Who go? ",
+      "text": "Where",
       "src": "img/smth",
-      "alt": "A button representing the word 'Who go?'"
+      "alt": "A button representing the word 'Where'"
+    },
+    {
+      "text": "Who",
+      "src": "img/smth",
+      "alt": "A button representing the word 'Who'"
+    },
+    {
+      "text": "Why",
+      "src": "img/smth",
+      "alt": "A button representing the word 'Why'"
     }
-
   ]
 }

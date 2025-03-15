@@ -1,6 +1,8 @@
 // ---
 // Section: Global Variables
 // ---
+
+const synth = window.speechSynthesis;
 const utteranceList = [];
 let automaticSpeechToggle = true;
 
@@ -86,9 +88,9 @@ const replaceButtons = async (keyName) => {
       }
     }
   } else {
-    let currentButtons = buttonData[keyName];
+    const currentButtons = buttonData[keyName];
     for (var k = 0; k < currentButtons.length; k++) {
-      let currentButtonData = currentButtons[j];
+      let currentButtonData = currentButtons[k];
       let currentButton = document.createElement("button");
       currentButton.className = "button-" + keyName;
       currentButton.type = "button";
@@ -113,7 +115,8 @@ const replaceButtons = async (keyName) => {
 const appendTextButton = (button) => {
   const textboxDiv = document.getElementById("text-box");
   const currentCopy = document.createElement("div");
-  currentCopy.className = "div-" + button.className.split("button-")[1];
+  currentCopy.className =
+    "div-copy div-" + button.className.split("button-")[1];
   const currentCopyDiv = document.createElement("div");
   currentCopyDiv.className = "text-div";
   const currentCopyImg = document.createElement("img");
@@ -127,6 +130,7 @@ const appendTextButton = (button) => {
   currentCopyDiv.appendChild(currentCopyText);
   currentCopy.appendChild(currentCopyDiv);
   textboxDiv.appendChild(currentCopy);
+  textboxDiv.scrollTop = textboxDiv.scrollHeight;
 };
 
 const setupTopicButtons = () => {
@@ -145,9 +149,22 @@ const pressButton = (button) => {
   utteranceList.push(currentUtterance);
   appendTextButton(button);
   if (automaticSpeechToggle) {
-    currentUtterance.speak();
+    synth.speak(currentUtterance);
   }
 };
+
+document.getElementById("text-toggle-button").addEventListener("click", () => {
+  automaticSpeechToggle = !automaticSpeechToggle;
+});
+document.getElementById("text-read-button").addEventListener("click", () => {
+  for (var i = 0; i < utteranceList.length; i++) {
+    synth.speak(utteranceList[i]);
+  }
+});
+document.getElementById("text-clear-button").addEventListener("click", () => {
+  document.getElementById("text-box").innerHTML = "";
+  utteranceList.length = 0;
+});
 
 createButtons();
 setupTopicButtons();
