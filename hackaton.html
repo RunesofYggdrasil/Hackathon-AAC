@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <title>AAC Board</title>
+  </head>
+  <style>
+    body {
+      text-align: center;    
+      background-color: #f5f5dc; 
+      font-family: 'Montserrat', sans-serif; 
+    }
+    h1 {
+      color: black;
+      text-align: center;
+      font-size: 40px; 
+      margin-top: 80px;
+    }
+    .search-container {
+      margin-right: 30px;
+    }
+    .search-container input {
+      width: 550px; 
+      height: 100px; 
+      font-size: 16px;
+      margin-top: 20px;
+      border-radius: 25px;
+      text-align: center;
+    }
+
+    .logo {
+        width: 50px; 
+        height: auto; 
+        margin-left: 10px; 
+    }
+    .button-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr); 
+      gap: 10px;
+      margin: 60px 400px; 
+    }
+    .button-grid button, .button-grid input {
+      width: 60%; 
+      height: 80px; 
+      border-radius: 10px;
+      font-size: 15px; 
+      text-align: text-top;
+      margin-right: 30%;
+      font-weight: 600;
+      background-color: rgb(230, 230, 104); 
+      border: none; 
+    }
+    .topic-grid {
+      margin-top: 45px; 
+      display: flex; 
+      justify-content: center; 
+      gap: 30px; 
+    }
+    .topic-grid button, .topic-grid input {
+      width: 120px; 
+      height: 60px; 
+      font-size: 15px; 
+      border-radius: 40px; 
+      font-weight: 600;
+    }
+
+    .topic-grid button:first-child {
+      background-color: rgb(230, 230, 104); 
+      border: 2px solid black; 
+      border-radius: 40px;
+    }
+
+    .topic-grid button:nth-child(2) {
+    background-color: rgb(224, 175, 134);
+    color: black; 
+    border-radius: 40px; 
+    }
+
+
+    .topic-grid input[type="button"] {
+    background-color: rgb(168, 168, 236);
+    color: black; 
+    border-radius: 40px; 
+    
+}
+
+.topic-grid input[type="button"]:nth-of-type(2) {
+    background-color: rgb(147, 212, 147); 
+    color: black;
+    border-radius: 40px; /
+}
+
+
+.topic-grid button:nth-of-type(3) {
+      background-color: lightpink; 
+      color: black; 
+      border-radius: 40px; 
+    }
+    .topic-grid button:nth-of-type(4) {
+      background-color: white; 
+      color: black; 
+      border-radius: 40px; 
+    }
+    .topic-grid button:nth-of-type(5) {
+      background-color: lightgrey; 
+      color: black; 
+      border-radius: 40px; 
+    }
+    .topic-grid button:nth-of-type(6) {
+      background-color: grey; 
+      color: black; 
+      border-radius: 40px; 
+    }
+    .topic-grid button:nth-of-type(7) {
+      background-color: rgb(219, 118, 118); 
+      color: black; 
+      border-radius: 40px; 
+    }
+
+    .topic-grid button:nth-of-type(8) {
+      background-color: rgb(214, 153, 74); 
+      color: black; 
+      border-radius: 40px; 
+    }
+
+  </style>
+  <body>
+    <h1>AAC Board</h1>
+    <div class="search-container">
+      <input type="text" />
+      <img src="images/logo.png" alt="Logo" class="logo" />
+    </div>
+    <div class="button-grid">
+      <button type="button">I</button>
+      <button type="button">That</button>
+      <button type="button">Do</button>
+      <button type="button">See</button>
+      <button type="button">Take</button>
+      <button type="button">At</button>
+      <button type="button">You</button>
+      <button type="button">The</button>
+      <button type="button">Like</button>
+      <button type="button">Eat</button>
+      <button type="button">Get</button>
+      <button type="button">In</button>
+      <button type="button">He</button>
+      <button type="button">A</button>
+      <button type="button">Don't like</button>
+      <button type="button">Help</button>
+      <button type="button">Make</button>
+      <button type="button">To</button>
+      <button type="button">She</button>
+      <button type="button">Is</button>
+      <button type="button">Want</button>
+      <button type="button">Go</button>
+      <button type="button">Think</button>
+      <button type="button">On</button>
+      <button type="button">They</button>
+      <button type="button">Are</button>
+      <button type="button">Don't want</button>
+      <button type="button">Need</button>
+      <button type="button">Know</button>
+      <button type="button">Have</button>
+      <button type="button">It</button>
+      <button type="button">Can</button>
+      <button type="button">Stop</button>
+      <button type="button">Come</button>
+      <button type="button">Give</button>
+      <button type="button">Put</button>
+      <button type="button">This</button>
+      <button type="button">Will</button>
+      <button type="button">Look</button>
+    </div>
+    <div class="topic-grid">
+      <button type="button">Core</button>
+      <button type="button">About Me</button>
+      <input type="button" value="People" onclick="alert('NEW SNIPPIT')">
+      <input type="button" value="Places" onclick="alert('I AM MUSIC')">
+      <button type="button">Food/Drinks</button>
+      <button type="button">Activities</button>
+      <button type="button">Feelings</button>
+      <button type="button">Adjectives</button>
+      <button type="button">Emergency</button>
+      <button type="button">Questions</button>
+    </div>
+    <script>
+      function drag(event) {
+            event.dataTransfer.setData("text", event.target.outerHTML); // Store the button's HTML
+        }
+
+        const selectionBar = document.getElementById("selectionBar");
+
+        selectionBar.addEventListener("dragover", function(event) {
+            event.preventDefault(); // Prevent default to allow drop
+        });
+
+        selectionBar.addEventListener("drop", function(event) {
+            event.preventDefault(); // Prevent default behavior
+            const data = event.dataTransfer.getData("text"); // Get the stored HTML
+            const button = document.createElement("div");
+            button.innerHTML = data; // Set the inner HTML to the dragged button
+            button.firstChild.setAttribute("draggable", "false"); // Make the button non-draggable
+            selectionBar.appendChild(button); // Append the button to the selection bar
+        });
+    </script>
+  </body>
+</html>
