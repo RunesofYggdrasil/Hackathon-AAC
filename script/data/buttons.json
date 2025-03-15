@@ -484,84 +484,84 @@
     },
     {
       "text": "Sad",
-      "src": "img/smth",
+      "src": "img/sad.png",
       "alt": "A button representing the word 'Sad'"
     },
     {
       "text": "Tired",
-      "src": "img/smth",
+      "src": "img/tired.png",
       "alt": "A button representing the word 'Tired'"
     },
     {
       "text": "Excited",
-      "src": "img/smth",
+      "src": "img/excited.png",
       "alt": "A button representing the word 'Excited'"
     },
     {
       "text": "Nervous",
-      "src": "img/smth",
+      "src": "img/nervous.png",
       "alt": "A button representing the word 'Nervous'"
     },
     {
       "text": "Angry",
-      "src": "img/smth",
+      "src": "img/angry.png",
       "alt": "A button representing the word 'Angry'"
     },
     {
       "text": "Scared",
-      "src": "img/smth",
+      "src": "img/scared.png",
       "alt": "A button representing the word 'Scared'"
     },
     {
       "text": "Calm",
-      "src": "img/smth",
+      "src": "img/calm.png",
       "alt": "A button representing the word 'Calm'"
     },
     {
       "text": "Frustrated",
-      "src": "img/smth",
+      "src": "img/frustrated.png",
       "alt": "A button representing the word 'Frustrated'"
     },
     {
       "text": "Bored",
-      "src": "img/smth",
+      "src": "img/bored.png",
       "alt": "A button representing the word 'Bored'"
     }
   ],
   "adjectives": [
     {
       "text": "Big",
-      "src": "img/smth",
+      "src": "img/big.png",
       "alt": "A button representing the word 'Big'"
     },
     {
       "text": "Small",
-      "src": "img/smth",
+      "src": "img/small.png",
       "alt": "A button representing the word 'Small'"
     },
     {
       "text": "Dark",
-      "src": "img/smth",
+      "src": "img/dark.png",
       "alt": "A button representing the word 'Dark'"
     },
     {
       "text": "Light",
-      "src": "img/smth",
+      "src": "img/light.png",
       "alt": "A button representing the word 'Light'"
     },
     {
       "text": "Short",
-      "src": "img/smth",
+      "src": "img/short.png",
       "alt": "A button representing the word 'Short'"
     },
     {
       "text": "Tall",
-      "src": "img/smth",
+      "src": "img/tall.png",
       "alt": "A button representing the word 'Tall'"
     },
     {
       "text": "Soft",
-      "src": "img/smth",
+      "src": "img/soft.png",
       "alt": "A button representing the word 'Soft'"
     },
     {

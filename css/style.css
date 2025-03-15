@@ -41,7 +41,7 @@ h1 {
   align-items: center;
   margin: auto;
   width: 100px;
-  height: 100px;
+  height: 110px;
   font-size: 15px;
   font-weight: 600;
   border: 2px solid;
@@ -54,7 +54,7 @@ h1 {
 }
 .button-img,
 .text-img {
-  width: 92px;
+  width: 80px;
   height: 70px;
   border-radius: 10px;
   margin: 0;
