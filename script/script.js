@@ -88,9 +88,9 @@ const replaceButtons = async (keyName) => {
       }
     }
   } else {
-    let currentButtons = buttonData[keyName];
+    const currentButtons = buttonData[keyName];
     for (var k = 0; k < currentButtons.length; k++) {
-      let currentButtonData = currentButtons[j];
+      let currentButtonData = currentButtons[k];
       let currentButton = document.createElement("button");
       currentButton.className = "button-" + keyName;
       currentButton.type = "button";

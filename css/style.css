@@ -92,7 +92,6 @@ h1 {
 }
 
 .topic-grid {
-  margin-top: 45px;
   display: flex;
   justify-content: center;
   gap: 30px;
