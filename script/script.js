@@ -88,9 +88,9 @@ const replaceButtons = async (keyName) => {
       }
     }
   } else {
-    let currentButtons = buttonData[keyName];
+    const currentButtons = buttonData[keyName];
     for (var k = 0; k < currentButtons.length; k++) {
-      let currentButtonData = currentButtons[j];
+      let currentButtonData = currentButtons[k];
       let currentButton = document.createElement("button");
       currentButton.className = "button-" + keyName;
       currentButton.type = "button";
@@ -152,6 +152,19 @@ const pressButton = (button) => {
     synth.speak(currentUtterance);
   }
 };
+
+document.getElementById("text-toggle-button").addEventListener("click", () => {
+  automaticSpeechToggle = !automaticSpeechToggle;
+});
+document.getElementById("text-read-button").addEventListener("click", () => {
+  for (var i = 0; i < utteranceList.length; i++) {
+    synth.speak(utteranceList[i]);
+  }
+});
+document.getElementById("text-clear-button").addEventListener("click", () => {
+  document.getElementById("text-box").innerHTML = "";
+  utteranceList.length = 0;
+});
 
 createButtons();
 setupTopicButtons();

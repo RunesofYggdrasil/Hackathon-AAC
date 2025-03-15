@@ -13,10 +13,26 @@
   <body>
     <h1>AAC Board</h1>
     <div class="text-container">
+      <button class="text-button" type="button" id="text-toggle-button">
+        <div class="text-button-div">
+          <img class="text-button-img" src="img/speak.png" alt="later" />
+          <p class="text-button-text">Toggle Mode</p>
+        </div>
+      </button>
       <div class="text-box" id="text-box"></div>
-      <img class="button-img" src="img/speak.png" alt="test" />
+      <button class="text-button" type="button" id="text-read-button">
+        <div class="text-button-div">
+          <img class="text-button-img" src="img/speak.png" alt="later" />
+          <p class="text-button-text">Read All</p>
+        </div>
+      </button>
+      <button class="text-button" type="button" id="text-clear-button">
+        <div class="text-button-div">
+          <img class="text-button-img" src="img/delete.png" alt="later" />
+          <p class="text-button-text">Clear All</p>
+        </div>
+      </button>
     </div>
-    <div class="button-grid" id="button-grid"></div>
     <div class="topic-grid" id="topic-grid">
       <button class="button-all" type="button">All</button>
       <button class="button-core" type="button">Core</button>
@@ -30,6 +46,7 @@
       <button class="button-emergency" type="button">Emergency</button>
       <button class="button-questions" type="button">Questions</button>
     </div>
+    <div class="button-grid" id="button-grid"></div>
     <script src="script/script.js"></script>
   </body>
 </html>

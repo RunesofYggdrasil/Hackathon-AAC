@@ -14,7 +14,7 @@ h1 {
   flex-direction: row;
   align-items: center;
   margin: auto;
-  width: 700px;
+  width: 1000px;
   height: 200px;
   padding: 20px;
 }
@@ -28,6 +28,30 @@ h1 {
   overflow-y: scroll;
   border-radius: 25px;
   text-align: center;
+}
+.text-button {
+  align-items: center;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 2px;
+}
+.text-button-img {
+  width: 92px;
+  height: 70px;
+  border-radius: 10px;
+  margin: 0;
+}
+.text-button-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0;
 }
 
 .button-grid {
@@ -68,7 +92,6 @@ h1 {
 }
 
 .topic-grid {
-  margin-top: 45px;
   display: flex;
   justify-content: center;
   gap: 30px;
