@@ -27,6 +27,7 @@ h1 {
   height: auto;
   margin-left: 10px;
 }
+
 .button-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -68,6 +69,10 @@ h1 {
   color: black;
   border-radius: 40px;
   font-weight: 600;
+}
+
+.button-all {
+  background-color: purple;
 }
 .button-core {
   background-color: rgb(230, 230, 104);
