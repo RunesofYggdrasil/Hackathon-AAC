@@ -1,0 +1,82 @@
+{
+  "core": [
+    {
+      "text": "I",
+      "src": "img/smth",
+      "alt": "A button representing the word 'I'"
+    },
+    {
+      "text": "You",
+      "src": "img/smth",
+      "alt": "A button representing the word 'You'"
+    },
+    {
+      "text": "He",
+      "src": "img/smth",
+      "alt": "A button representing the word 'You'"
+    }
+  ],
+  "about-me": [
+    {
+      "text": "Smth",
+      "src": "img/smth",
+      "alt": "A button representing the word 'Smth'"
+    }
+  ],
+  "people": [
+    {
+      "text": "Smth",
+      "src": "img/smth",
+      "alt": "A button representing the word 'Smth'"
+    }
+  ],
+  "places": [
+    {
+      "text": "Smth",
+      "src": "img/smth",
+      "alt": "A button representing the word 'Smth'"
+    }
+  ],
+  "food": [
+    {
+      "text": "Smth",
+      "src": "img/smth",
+      "alt": "A button representing the word 'Smth'"
+    }
+  ],
+  "activies": [
+    {
+      "text": "Smth",
+      "src": "img/smth",
+      "alt": "A button representing the word 'Smth'"
+    }
+  ],
+  "feelings": [
+    {
+      "text": "Smth",
+      "src": "img/smth",
+      "alt": "A button representing the word 'Smth'"
+    }
+  ],
+  "adjectives": [
+    {
+      "text": "Smth",
+      "src": "img/smth",
+      "alt": "A button representing the word 'Smth'"
+    }
+  ],
+  "emergency": [
+    {
+      "text": "Smth",
+      "src": "img/smth",
+      "alt": "A button representing the word 'Smth'"
+    }
+  ],
+  "questions": [
+    {
+      "text": "Smth",
+      "src": "img/smth",
+      "alt": "A button representing the word 'Smth'"
+    }
+  ]
+}
