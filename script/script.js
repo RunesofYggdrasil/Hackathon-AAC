@@ -67,10 +67,10 @@ const replaceButtons = async (keyName) => {
     }
   } else {
     let currentButtons = buttonData[keyName];
-    for (var j = 0; j < currentButtons.length; j++) {
+    for (var k = 0; k < currentButtons.length; k++) {
       let currentButtonData = currentButtons[j];
       let currentButton = document.createElement("button");
-      currentButton.className = "button-" + currentKey;
+      currentButton.className = "button-" + keyName;
       currentButton.type = "button";
       let currentDiv = document.createElement("div");
       currentDiv.className = "button-div";
@@ -90,10 +90,10 @@ const replaceButtons = async (keyName) => {
 };
 
 const setupButtons = () => {
-  const topicButtons = document.querySelectorAll("topic-grid button");
+  const topicButtons = document.querySelectorAll(".topic-grid button");
   topicButtons.forEach((currentButton) => {
     currentButton.addEventListener("click", () => {
-      let keyName = currentButton.className.split("-")[1];
+      let keyName = currentButton.className.split("button-")[1];
       replaceButtons(keyName);
     });
   });
