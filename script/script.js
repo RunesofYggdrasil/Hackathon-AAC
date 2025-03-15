@@ -130,6 +130,7 @@ const appendTextButton = (button) => {
   currentCopyDiv.appendChild(currentCopyText);
   currentCopy.appendChild(currentCopyDiv);
   textboxDiv.appendChild(currentCopy);
+  textboxDiv.scrollTop = textboxDiv.scrollHeight;
 };
 
 const setupTopicButtons = () => {
