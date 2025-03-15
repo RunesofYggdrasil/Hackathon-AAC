@@ -22,10 +22,16 @@ h1 {
     text-align: center;
 }
 
-.logo {
+.button-img {
     width: 50px; 
     height: auto; 
     margin-left: 10px; 
+}
+
+
+.text-input {
+    margin-left: 50px;
+    height: auto; 
 }
 .button-grid {
     display: grid;
