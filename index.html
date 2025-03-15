@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
+    <!-- <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
       rel="stylesheet"
-    />
+    /> -->
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     <title>AAC Board</title>
   </head>
@@ -62,17 +62,18 @@
       <button type="button">Will</button>
       <button type="button">Look</button> -->
     </div>
-    <div class="topic-grid">
-      <button type="button">Core</button>
-      <button type="button">About Me</button>
-      <input type="button" value="People" onclick="alert('NEW SNIPPIT')" />
-      <input type="button" value="Places" onclick="alert('I AM MUSIC')" />
-      <button type="button">Food/Drinks</button>
-      <button type="button">Activities</button>
-      <button type="button">Feelings</button>
-      <button type="button">Adjectives</button>
-      <button type="button">Emergency</button>
-      <button type="button">Questions</button>
+    <div class="topic-grid" id="topic-grid">
+      <button class="button-all" type="button">All</button>
+      <button class="button-core" type="button">Core</button>
+      <button class="button-about-me" type="button">About Me</button>
+      <button class="button-people" type="button">People</button>
+      <button class="button-places" type="button">Places</button>
+      <button class="button-food" type="button">Food/Drinks</button>
+      <button class="button-activities" type="button">Activities</button>
+      <button class="button-feelings" type="button">Feelings</button>
+      <button class="button-adjectives" type="button">Adjectives</button>
+      <button class="button-emergency" type="button">Emergency</button>
+      <button class="button-questions" type="button">Questions</button>
     </div>
     <script src="script/script.js"></script>
   </body>
