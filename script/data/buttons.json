@@ -598,32 +598,32 @@
   "emergency": [
     {
       "text": "Help",
-      "src": "img/help.png",
+      "src": "img/emergency/help.png",
       "alt": "A button representing the word 'Help'"
     },
     {
       "text": "I Need a Doctor",
-      "src": "img/smth",
+      "src": "img/emergency/i_need_a_doctor.png",
       "alt": "A button representing the word 'I Need a Doctor'"
     },
     {
       "text": "I Feel Sick",
-      "src": "img/smth",
+      "src": "img/emergency/i_feel_sick.png",
       "alt": "A button representing the word 'I Feel Sick'"
     },
     {
       "text": "I am Hurt",
-      "src": "img/smth",
+      "src": "img/emergency/i_am_hurt.png",
       "alt": "A button representing the word 'I am Hurt'"
     },
     {
       "text": "Go Away",
-      "src": "img/smth",
+      "src": "img/emergency/go_away.png",
       "alt": "A button representing the word 'Go Away'"
     },
     {
       "text": "Danger",
-      "src": "img/danger.png",
+      "src": "img/emergency/danger.png",
       "alt": "A button representing the word 'Danger'"
     }
   ],
