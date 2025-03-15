@@ -1,8 +1,27 @@
+// ---
+// Section: Global Variables
+// ---
+const utteranceList = [];
+let automaticSpeechToggle = true;
+
+// ---
+// Section: Functions
+// ---
+
 const getJSONData = () => {
   return new Promise(async (resolve) => {
     const file = await fetch("/script/data/buttons.json");
     const data = await file.json();
     resolve(data);
+  });
+};
+
+const setupGridButtons = () => {
+  const gridButtons = document.querySelectorAll(".button-grid button");
+  gridButtons.forEach((currentButton) => {
+    currentButton.addEventListener("click", () => {
+      pressButton(currentButton);
+    });
   });
 };
 
@@ -33,6 +52,7 @@ const createButtons = async () => {
       buttonGrid.appendChild(currentButton);
     }
   }
+  setupGridButtons();
 };
 
 const replaceButtons = async (keyName) => {
@@ -87,9 +107,29 @@ const replaceButtons = async (keyName) => {
       buttonGrid.appendChild(currentButton);
     }
   }
+  setupGridButtons();
 };
 
-const setupButtons = () => {
+const appendTextButton = (button) => {
+  const textboxDiv = document.getElementById("text-box");
+  const currentCopy = document.createElement("div");
+  currentCopy.className = "div-" + button.className.split("button-")[1];
+  const currentCopyDiv = document.createElement("div");
+  currentCopyDiv.className = "text-div";
+  const currentCopyImg = document.createElement("img");
+  currentCopyImg.className = "text-img";
+  currentCopyImg.src = button.querySelector(".button-img").src;
+  currentCopyImg.alt = button.querySelector(".button-img").alt;
+  const currentCopyText = document.createElement("p");
+  currentCopyText.className = "text-text";
+  currentCopyText.innerHTML = button.querySelector(".button-text").innerHTML;
+  currentCopyDiv.appendChild(currentCopyImg);
+  currentCopyDiv.appendChild(currentCopyText);
+  currentCopy.appendChild(currentCopyDiv);
+  textboxDiv.appendChild(currentCopy);
+};
+
+const setupTopicButtons = () => {
   const topicButtons = document.querySelectorAll(".topic-grid button");
   topicButtons.forEach((currentButton) => {
     currentButton.addEventListener("click", () => {
@@ -99,5 +139,15 @@ const setupButtons = () => {
   });
 };
 
+const pressButton = (button) => {
+  const currentText = button.querySelector(".button-text").innerHTML;
+  const currentUtterance = new SpeechSynthesisUtterance(currentText);
+  utteranceList.push(currentUtterance);
+  appendTextButton(button);
+  if (automaticSpeechToggle) {
+    currentUtterance.speak();
+  }
+};
+
 createButtons();
-setupButtons();
+setupTopicButtons();
