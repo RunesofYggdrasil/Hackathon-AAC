@@ -598,7 +598,7 @@
   "emergency": [
     {
       "text": "Help",
-      "src": "img/smth",
+      "src": "img/help.png",
       "alt": "A button representing the word 'Help'"
     },
     {
@@ -623,7 +623,7 @@
     },
     {
       "text": "Danger",
-      "src": "img/smth",
+      "src": "img/danger.png",
       "alt": "A button representing the word 'Danger'"
     }
   ],
