@@ -18,10 +18,13 @@ const createButtons = async () => {
       let currentButton = document.createElement("button");
       currentButton.type = "button";
       let currentDiv = document.createElement("div");
+      currentDiv.className = "button-div";
       let currentImg = document.createElement("img");
+      currentDiv.className = "button-img";
       currentImg.src = currentButtonData.src;
       currentImg.alt = currentButtonData.alt;
       let currentText = document.createElement("p");
+      currentDiv.className = "button-text";
       currentText.innerHTML = currentButtonData.text;
       currentDiv.appendChild(currentImg);
       currentDiv.appendChild(currentText);
@@ -30,3 +33,5 @@ const createButtons = async () => {
     }
   }
 };
+
+createButtons();
