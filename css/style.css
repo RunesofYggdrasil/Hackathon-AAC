@@ -59,33 +59,33 @@ h1 {
   border-radius: 40px;
   font-weight: 600;
 }
-.topic-grid .button-core {
+.button-core {
   background-color: rgb(230, 230, 104);
 }
-.topic-grid .button-about-me {
+.button-about-me {
   background-color: rgb(224, 175, 134);
 }
-.topic-grid .button-people {
+.button-people {
   background-color: rgb(168, 168, 236);
 }
-.topic-grid .button-places {
+.button-places {
   background-color: rgb(147, 212, 147);
 }
-.topic-grid .button-food {
+.button-food {
   background-color: lightpink;
 }
-.topic-grid .button-activities {
+.button-activities {
   background-color: white;
 }
-.topic-grid .button-feelings {
+.button-feelings {
   background-color: lightgrey;
 }
-.topic-grid .button-adjectives {
+.button-adjectives {
   background-color: grey;
 }
-.topic-grid .button-emergency {
+.button-emergency {
   background-color: rgb(219, 118, 118);
 }
-.topic-grid .button-questions {
+.button-questions {
   background-color: rgb(214, 153, 74);
 }
