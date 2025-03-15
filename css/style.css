@@ -2,7 +2,6 @@ body {
   text-align: center;
   background-color: #f5f5dc;
   font-family: "Montserrat", sans-serif;
-  /* i */
 }
 h1 {
   color: black;
@@ -10,16 +9,19 @@ h1 {
   font-size: 40px;
   margin-top: 80px;
 }
-.search-container {
+.text-container {
   margin-right: 30px;
 }
-.search-container input {
+.text-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
   width: 550px;
   height: 100px;
-  font-size: 16px;
   margin-top: 20px;
   border-radius: 25px;
   text-align: center;
+  overflow-y: scroll;
 }
 
 .logo {
@@ -34,7 +36,8 @@ h1 {
   gap: 10px;
   margin: 60px 400px;
 }
-.button-grid button {
+.button-grid button,
+.text-box div {
   width: 80px;
   height: 100px;
   font-size: 15px;
@@ -45,13 +48,15 @@ h1 {
   border-radius: 10px;
   padding: 0;
 }
-.button-img {
+.button-img,
+.text-img {
   width: 75px;
   height: 70px;
   border-radius: 10px;
   margin: 0;
 }
-.button-text {
+.button-text,
+.text-text {
   margin: 0;
 }
 
@@ -70,70 +75,92 @@ h1 {
   font-weight: 600;
 }
 
-.button-all {
+.button-all,
+.div-all {
   background-color: purple;
 }
-.button-core {
+.button-core,
+.div-core {
   background-color: rgb(230, 230, 104);
 }
-.button-about-me {
+.button-about-me,
+.div-about-me {
   background-color: rgb(224, 175, 134);
 }
-.button-people {
+.button-people,
+.div-people {
   background-color: rgb(168, 168, 236);
 }
-.button-places {
+.button-places,
+.div-places {
   background-color: rgb(147, 212, 147);
 }
-.button-food {
+.button-food,
+.div-food {
   background-color: lightpink;
 }
-.button-activities {
+.button-activities,
+.div-activities {
   background-color: white;
 }
-.button-feelings {
+.button-feelings,
+.div-feelings {
   background-color: lightgrey;
 }
-.button-adjectives {
+.button-adjectives,
+.div-adjectives {
   background-color: grey;
 }
-.button-emergency {
+.button-emergency,
+.div-emergency {
   background-color: rgb(219, 118, 118);
 }
-.button-questions {
+.button-questions,
+.div-questions {
   background-color: rgb(214, 153, 74);
 }
 
-.button-grid .button-all {
+.button-grid .button-all,
+.text-container .div-all {
   border-color: purple;
 }
-.button-grid .button-core {
+.button-grid .button-core,
+.text-container .div-core {
   border-color: rgb(230, 230, 104);
 }
-.button-grid .button-about-me {
+.button-grid .button-about-me,
+.text-container .div-about-me {
   border-color: rgb(224, 175, 134);
 }
-.button-grid .button-people {
+.button-grid .button-people,
+.text-container .div-people {
   border-color: rgb(168, 168, 236);
 }
-.button-grid .button-places {
+.button-grid .button-places,
+.text-container .div-places {
   border-color: rgb(147, 212, 147);
 }
-.button-grid .button-food {
+.button-grid .button-food,
+.text-container .div-food {
   border-color: lightpink;
 }
-.button-grid .button-activities {
+.button-grid .button-activities,
+.text-container .div-activities {
   border-color: white;
 }
-.button-grid .button-feelings {
+.button-grid .button-feelings,
+.text-container .div-feelings {
   border-color: lightgrey;
 }
-.button-grid .button-adjectives {
+.button-grid .button-adjectives,
+.text-container .div-adjectives {
   border-color: grey;
 }
-.button-grid .button-emergency {
+.button-grid .button-emergency,
+.text-container .div-emergency {
   border-color: rgb(219, 118, 118);
 }
-.button-grid .button-questions {
+.button-grid .button-questions,
+.text-container .div-questions {
   border-color: rgb(214, 153, 74);
 }
