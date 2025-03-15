@@ -1,6 +1,8 @@
 // ---
 // Section: Global Variables
 // ---
+
+const synth = window.speechSynthesis;
 const utteranceList = [];
 let automaticSpeechToggle = true;
 
@@ -113,7 +115,8 @@ const replaceButtons = async (keyName) => {
 const appendTextButton = (button) => {
   const textboxDiv = document.getElementById("text-box");
   const currentCopy = document.createElement("div");
-  currentCopy.className = "div-" + button.className.split("button-")[1];
+  currentCopy.className =
+    "div-copy div-" + button.className.split("button-")[1];
   const currentCopyDiv = document.createElement("div");
   currentCopyDiv.className = "text-div";
   const currentCopyImg = document.createElement("img");
@@ -145,7 +148,7 @@ const pressButton = (button) => {
   utteranceList.push(currentUtterance);
   appendTextButton(button);
   if (automaticSpeechToggle) {
-    currentUtterance.speak();
+    synth.speak(currentUtterance);
   }
 };
 

@@ -14,26 +14,20 @@ h1 {
   flex-direction: row;
   align-items: center;
   margin: auto;
-  width: 600px;
+  width: 700px;
   height: 200px;
   padding: 20px;
 }
 .text-box {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 10px;
-  width: 550px;
+  width: 600px;
   height: 150px;
   background-color: white;
   overflow-y: scroll;
   border-radius: 25px;
   text-align: center;
-}
-
-.button-img {
-  width: 50px;
-  height: auto;
-  margin-left: 10px;
 }
 
 .button-grid {
@@ -43,7 +37,8 @@ h1 {
   margin: 60px 400px;
 }
 .button-grid button,
-.text-box div {
+.text-box .div-copy {
+  align-items: center;
   margin: auto;
   width: 100px;
   height: 100px;
@@ -52,6 +47,10 @@ h1 {
   border: 2px solid;
   border-radius: 10px;
   padding: 0;
+}
+.text-box .div-copy {
+  padding-top: 4px;
+  margin-left: 10px;
 }
 .button-img,
 .text-img {
@@ -62,6 +61,9 @@ h1 {
 }
 .button-text,
 .text-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
   margin: 0;
 }
 
