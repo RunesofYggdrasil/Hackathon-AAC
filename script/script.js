@@ -15,7 +15,18 @@ const createButtons = async () => {
     let currentButtons = buttonData[currentKey];
     for (var j = 0; j < currentButtons.length; j++) {
       let currentButtonData = currentButtons[j];
-      let;
+      let currentButton = document.createElement("button");
+      currentButton.type = "button";
+      let currentDiv = document.createElement("div");
+      let currentImg = document.createElement("img");
+      currentImg.src = currentButtonData.src;
+      currentImg.alt = currentButtonData.alt;
+      let currentText = document.createElement("p");
+      currentText.innerHTML = currentButtonData.text;
+      currentDiv.appendChild(currentImg);
+      currentDiv.appendChild(currentText);
+      currentButton.appendChild(currentDiv);
+      buttonGrid.appendChild(currentButton);
     }
   }
 };
