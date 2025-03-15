@@ -153,5 +153,18 @@ const pressButton = (button) => {
   }
 };
 
+document.getElementById("text-toggle-button").addEventListener("click", () => {
+  automaticSpeechToggle = !automaticSpeechToggle;
+});
+document.getElementById("text-read-button").addEventListener("click", () => {
+  for (var i = 0; i < utteranceList.length; i++) {
+    synth.speak(utteranceList[i]);
+  }
+});
+document.getElementById("text-clear-button").addEventListener("click", () => {
+  document.getElementById("text-box").innerHTML = "";
+  utteranceList.length = 0;
+});
+
 createButtons();
 setupTopicButtons();
