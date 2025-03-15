@@ -497,67 +497,67 @@
   "activities": [
     {
       "text": "Read",
-      "src": "img/smth",
+      "src": "img/reading.png",
       "alt": "A button representing the word 'Read'"
     },
     {
       "text": "Watch",
-      "src": "img/smth",
+      "src": "img/monitor.png",
       "alt": "A button representing the word 'Watch'"
     },
 
     {
       "text": "Play",
-      "src": "img/smth",
+      "src": "img/play.png",
       "alt": "A button representing the word 'Play'"
     },
 
     {
       "text": "Dance",
-      "src": "img/smth",
+      "src": "img/dance.png",
       "alt": "A button representing the word 'Dance'"
     },
 
     {
       "text": "Sing",
-      "src": "img/smth",
+      "src": "img/sing.png",
       "alt": "A button representing the word 'Sing'"
     },
 
     {
       "text": "Draw",
-      "src": "img/smth",
+      "src": "img/drawing.png",
       "alt": "A button representing the word 'Draw'"
     },
 
     {
       "text": "Color",
-      "src": "img/smth",
+      "src": "img/coloring.png",
       "alt": "A button representing the word 'Color'"
     },
 
     {
       "text": "Drive a bike",
-      "src": "img/smth",
+      "src": "img/bike.png",
       "alt": "A button representing the word 'Drive a bike'"
     },
 
     {
       "text": "Swim",
-      "src": "img/smth",
+      "src": "img/swim.png",
       "alt": "A button representing the word 'Swim'"
     },
 
     {
       "text": "Listen to music",
-      "src": "img/smth",
+      "src": "img/music.png",
       "alt": "A button representing the word 'Listen to music"
     }
   ],
   "feelings": [
     {
       "text": "Happy",
-      "src": "img/smth",
+      "src": "img/happy.png",
       "alt": "A button representing the word 'Happy'"
     },
     {
