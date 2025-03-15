@@ -13,7 +13,7 @@
     {
       "text": "He",
       "src": "img/smth",
-      "alt": "A button representing the word 'You'"
+      "alt": "A button representing the word 'He'"
     }
   ],
   "about-me": [
@@ -46,9 +46,29 @@
   ],
   "activities": [
     {
-      "text": "Smth",
-      "src": "img/smth",
-      "alt": "A button representing the word 'Smth'"
+      "text": "Restroom",
+      "src": "img/toilet-145802_1280.webp",
+      "alt": "A button representing the word 'restroom'"
+    },
+    {
+      "text": "Shower",
+      "src": "img/icon-1294830_1280.webp",
+      "alt": "A button representing the word 'shower'"
+    },
+    {
+      "text": "Active",
+      "src": "img/fitness-310380_1280.webp",
+      "alt": "A button representing the word 'shower'"
+    },
+    {
+      "text": "Videogame",
+      "src": "img/controller.png",
+      "alt": "A button representing the word 'videogames'"
+    },
+    {
+      "text": "TV",
+      "src": "img/monitor.png",
+      "alt": "A button representing the word 'tv'"
     }
   ],
   "feelings": [
