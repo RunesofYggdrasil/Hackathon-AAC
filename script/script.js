@@ -91,13 +91,12 @@ const replaceButtons = async (keyName) => {
 
 const setupButtons = () => {
   const topicButtons = document.querySelectorAll("topic-grid button");
-  for (var i = 0; i < topicButtons.length; i++) {
-    let currentButton = topicButtons[i];
+  topicButtons.forEach((currentButton) => {
     currentButton.addEventListener("click", () => {
       let keyName = currentButton.className.split("-")[1];
       replaceButtons(keyName);
     });
-  }
+  });
 };
 
 createButtons();
