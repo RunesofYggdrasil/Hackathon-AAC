@@ -16,6 +16,15 @@ const getJSONData = () => {
   });
 };
 
+const setupGridButtons = () => {
+  const gridButtons = document.querySelectorAll(".button-grid button");
+  gridButtons.forEach((currentButton) => {
+    currentButton.addEventListener("click", () => {
+      pressButton(currentButton);
+    });
+  });
+};
+
 const createButtons = async () => {
   const buttonGrid = document.getElementById("button-grid");
   const buttonData = await getJSONData();
@@ -43,6 +52,7 @@ const createButtons = async () => {
       buttonGrid.appendChild(currentButton);
     }
   }
+  setupGridButtons();
 };
 
 const replaceButtons = async (keyName) => {
@@ -97,6 +107,7 @@ const replaceButtons = async (keyName) => {
       buttonGrid.appendChild(currentButton);
     }
   }
+  setupGridButtons();
 };
 
 const appendTextButton = (button) => {
@@ -136,15 +147,6 @@ const pressButton = (button) => {
   if (automaticSpeechToggle) {
     currentUtterance.speak();
   }
-};
-
-const setupGridButtons = () => {
-  const gridButtons = document.querySelectorAll(".button-grid button");
-  gridButtons.forEach((currentButton) => {
-    currentButton.addEventListener("click", () => {
-      pressButton(currentButton);
-    });
-  });
 };
 
 createButtons();
