@@ -149,6 +149,14 @@ h1 {
 .div-questions {
   background-color: rgb(214, 153, 74);
 }
+.button-numbers,
+.div-numbers {
+  background-color: rgb(74, 170, 214);
+}
+.button-alphabet,
+.div-alphabet {
+  background-color: rgb(144, 235, 208);
+}
 
 .button-grid .button-all,
 .text-box .div-all {
@@ -193,4 +201,12 @@ h1 {
 .button-grid .button-questions,
 .text-box .div-questions {
   border-color: rgb(214, 153, 74);
+}
+.button-grid .button-numbers,
+.text-box .div-numbers {
+  border-color: rgb(74, 170, 214);
+}
+.button-grid .button-alphabet,
+.text-box .div-alphabet {
+  border-color: rgb(144, 235, 208);
 }

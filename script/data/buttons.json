@@ -46,11 +46,6 @@
       "alt": "A button representing the word 'The'"
     },
     {
-      "text": "A",
-      "src": "img/core/a.png",
-      "alt": "A button representing the word 'A'"
-    },
-    {
       "text": "Is",
       "src": "img/core/is.png",
       "alt": "A button representing the word 'Is'"
@@ -219,12 +214,12 @@
     },
     {
       "text": "My Name",
-      "src": "img/about-me/my_name.png",
+      "src": "img/about-me/name.png",
       "alt": "A button representing the word 'My Name'"
     },
     {
       "text": "My Birthday",
-      "src": "img/about-me/my_birthday.png",
+      "src": "img/about-me/birthday.png",
       "alt": "A button representing the word 'My Birthday'"
     },
     {
@@ -630,28 +625,212 @@
   "questions": [
     {
       "text": "What",
-      "src": "img/smth",
+      "src": "img/questions/questionmark.png",
       "alt": "A button representing the word 'What'"
     },
     {
       "text": "When",
-      "src": "img/smth",
+      "src": "img/questions/when.png",
       "alt": "A button representing the word 'When'"
     },
     {
       "text": "Where",
-      "src": "img/smth",
+      "src": "img/questions/where.png",
       "alt": "A button representing the word 'Where'"
     },
     {
       "text": "Who",
-      "src": "img/smth",
+      "src": "img/questions/who.png",
       "alt": "A button representing the word 'Who'"
     },
     {
       "text": "Why",
-      "src": "img/smth",
+      "src": "img/questions/why.png",
       "alt": "A button representing the word 'Why'"
+    }
+  ],
+  "numbers": [
+    {
+      "text": "Zero",
+      "src": "img/numbers/zero.png",
+      "alt": "A button representing the word 'Zero'"
+    },
+    {
+      "text": "One",
+      "src": "img/numbers/one.png",
+      "alt": "A button representing the word 'One'"
+    },
+    {
+      "text": "Two",
+      "src": "img/numbers/two.png",
+      "alt": "A button representing the word 'Two'"
+    },
+    {
+      "text": "Three",
+      "src": "img/numbers/three.png",
+      "alt": "A button representing the word 'Three'"
+    },
+    {
+      "text": "Four",
+      "src": "img/numbers/four.png",
+      "alt": "A button representing the word 'Four'"
+    },
+    {
+      "text": "Five",
+      "src": "img/numbers/five.png",
+      "alt": "A button representing the word 'Five'"
+    },
+    {
+      "text": "Six",
+      "src": "img/numbers/six.png",
+      "alt": "A button representing the word 'Six'"
+    },
+    {
+      "text": "Seven",
+      "src": "img/numbers/seven.png",
+      "alt": "A button representing the word 'Seven'"
+    },
+    {
+      "text": "Eight",
+      "src": "img/numbers/eight.png",
+      "alt": "A button representing the word 'Eight'"
+    },
+    {
+      "text": "Nine",
+      "src": "img/numbers/nine.png",
+      "alt": "A button representing the word 'Nine'"
+    }
+  ],
+  "alphabet": [
+    {
+      "text": "A",
+      "src": "img/alphabet/a.png",
+      "alt": "A button representing the word 'A"
+    },
+    {
+      "text": "B",
+      "src": "img/alphabet/b.png",
+      "alt": "A button representing the word 'B"
+    },
+    {
+      "text": "C",
+      "src": "img/alphabet/c.png",
+      "alt": "A button representing the word 'C"
+    },
+    {
+      "text": "D",
+      "src": "img/alphabet/d.png",
+      "alt": "A button representing the word 'D"
+    },
+    {
+      "text": "E",
+      "src": "img/alphabet/e.png",
+      "alt": "A button representing the word 'E"
+    },
+    {
+      "text": "F",
+      "src": "img/alphabet/f.png",
+      "alt": "A button representing the word 'F"
+    },
+    {
+      "text": "G",
+      "src": "img/alphabet/g.png",
+      "alt": "A button representing the word 'G"
+    },
+    {
+      "text": "H",
+      "src": "img/alphabet/h.png",
+      "alt": "A button representing the word 'H"
+    },
+    {
+      "text": "I",
+      "src": "img/alphabet/i.png",
+      "alt": "A button representing the word 'I"
+    },
+    {
+      "text": "J",
+      "src": "img/alphabet/j.png",
+      "alt": "A button representing the word 'J"
+    },
+    {
+      "text": "K",
+      "src": "img/alphabet/k.png",
+      "alt": "A button representing the word 'K"
+    },
+    {
+      "text": "L",
+      "src": "img/alphabet/l.png",
+      "alt": "A button representing the word 'L"
+    },
+    {
+      "text": "M",
+      "src": "img/alphabet/m.png",
+      "alt": "A button representing the word 'M"
+    },
+    {
+      "text": "N",
+      "src": "img/alphabet/n.png",
+      "alt": "A button representing the word 'N"
+    },
+    {
+      "text": "O",
+      "src": "img/alphabet/o.png",
+      "alt": "A button representing the word 'O"
+    },
+    {
+      "text": "P",
+      "src": "img/alphabet/p.png",
+      "alt": "A button representing the word 'P"
+    },
+    {
+      "text": "Q",
+      "src": "img/alphabet/q.png",
+      "alt": "A button representing the word 'Q"
+    },
+    {
+      "text": "R",
+      "src": "img/alphabet/r.png",
+      "alt": "A button representing the word 'R"
+    },
+    {
+      "text": "S",
+      "src": "img/alphabet/s.png",
+      "alt": "A button representing the word 'S"
+    },
+    {
+      "text": "T",
+      "src": "img/alphabet/t.png",
+      "alt": "A button representing the word 'T"
+    },
+    {
+      "text": "U",
+      "src": "img/alphabet/u.png",
+      "alt": "A button representing the word 'U"
+    },
+    {
+      "text": "V",
+      "src": "img/alphabet/v.png",
+      "alt": "A button representing the word 'V"
+    },
+    {
+      "text": "W",
+      "src": "img/alphabet/w.png",
+      "alt": "A button representing the word 'W"
+    },
+    {
+      "text": "X",
+      "src": "img/alphabet/x.png",
+      "alt": "A button representing the word 'X"
+    },
+    {
+      "text": "Y",
+      "src": "img/alphabet/y.png",
+      "alt": "A button representing the word 'Y"
+    },
+    {
+      "text": "Z",
+      "src": "img/alphabet/z.png",
+      "alt": "A button representing the word 'Z"
     }
   ]
 }
